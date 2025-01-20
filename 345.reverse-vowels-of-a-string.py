@@ -44,7 +44,6 @@ class Solution:
         while i < j:
             ri = r[i]
             rj = r[j]
-            while 
             if ri.lower() not in vowels:
                 i += 1
             if rj.lower() not in vowels:
