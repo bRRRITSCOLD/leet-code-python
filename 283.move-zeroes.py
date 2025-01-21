@@ -31,11 +31,6 @@ import unittest
 # Submissions | Solution
 
 #
-# @lc app=leetcode id=35 lang=python3
-#
-# [35] Search Insert Position
-#
-#
 # @lc app=leetcode id=283 lang=python3
 #
 # [283] Move Zeroes
@@ -71,18 +66,18 @@ class TestRoot(unittest.TestCase):
     def test(self):
         sol =  Solution()
 
-        # inp = [0,1,0,3,12]
-        # sol.moveZeroes(inp)
-        # self.assertEqual(inp, [1,3,12,0,0])
+        inp = [0,1,0,3,12]
+        sol.moveZeroes(inp)
+        self.assertEqual(inp, [1,3,12,0,0])
 
 
-        # inp = [0]
-        # sol.moveZeroes(inp)
-        # self.assertEqual(inp, [0])
+        inp = [0]
+        sol.moveZeroes(inp)
+        self.assertEqual(inp, [0])
 
-        # inp = [0,1]
-        # sol.moveZeroes(inp)
-        # self.assertEqual(inp, [1,0])
+        inp = [0,1]
+        sol.moveZeroes(inp)
+        self.assertEqual(inp, [1,0])
 
         inp = [4,2,4,0,0,3,0,5,1,0]
         sol.moveZeroes(inp)
